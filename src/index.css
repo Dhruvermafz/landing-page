@@ -71,3 +71,18 @@ body {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+.error{
+  color: #FF7D50;
+  font-size: 12px;
+  line-height: 18px;
+  padding-left: 14px;
+  margin-top: 5px;
+}
+.noData{
+  font-size: medium;
+  background-color: brown;
+}
+.noDataTd{
+  color: white;
+}
