@@ -102,42 +102,6 @@ const Register = () => {
     } else {
       setAge(0);
     }
-
-    // let i = 1;
-    // document.getElementById('addressAdd').addEventListener('click', function () {
-    //     let template = `<input id="item'${i} '" className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300
-    //     placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 name="addressrr" type="text" value="">`;
-
-    //     let container = document.getElementById('add-new-adsress');
-    //     let div = document.createElement('div');
-    //     div.innerHTML = template;
-    //     container.appendChild(div);
-
-    //     i++;
-    // })
-    // let scntDiv = document.getElementById("resource");
-    // console.log("scntDiv", scntDiv)
-    // let i = document.querySelectorAll("#resource p").length + 1;
-    // console.log("i", i)
-    // var name = document.querySelectorAll("#resource p");
-    // document.getElementById("addressAdd").addEventListener('click', function () {
-    //     console.log("hello")
-    //     let id = document.querySelectorAll('tr #resource input ').length + 1;
-    //     document.getElementById("resource")
-    //         .insertAdjacentHTML("afterend",
-    //             `<td ><input id="item${id}" name="addressArr[]" className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" type="text" value=""><img id="remScnt" alt="[-]"></td>`);
-    //     i++;
-    //     return false;
-    //     // $('<tr><td classname=""><input id="item' + id + '" name="item[]" type="text" value=""><img id="remScnt" alt="[-]"></td></tr>').appendTo(scntDiv); i++; return false;
-    // });
-    // document.getElementById("remScnt").addEventListener('click',
-    //     function () {
-    //         if (i > 1) { this.parent().parent().remove(); i--; }
-    //         return false;
-    //     });
-    //  document.getElementById("go").click(function () {
-    //     let myArray = []; document.querySelector('input').each(function () { myArray.push(this.value); }); alert(myArray)
-    // });
   }, [formik?.values?.dob]);
   const formSubmitHandler = (formData) => {
     console.log("formData", formData);

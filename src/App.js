@@ -16,13 +16,13 @@ function App() {
         <Routes>
           <Route path="/register" element={<Register />} />
         </Routes>
+        <Navbar />
+        <Hero />
+        <Features />
+        <Testimonial />
+        <CallToAction />
+        <Footer />
       </BrowserRouter>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Testimonial />
-      <CallToAction />
-      <Footer />
     </>
   );
 }

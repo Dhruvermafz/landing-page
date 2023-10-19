@@ -16,8 +16,8 @@ const Navbar = () => {
         </div>
         {/* Menu Items */}
         <div className='hidden space-x-6 md:flex'>
-          <Link to='#' className='hover:text-darkGrayishBlue'>
-            Pricing
+          <Link to='/developers' className='hover:text-darkGrayishBlue'>
+            Developers
           </Link>
           <Link to='#' className='hover:text-darkGrayishBlue'>
             Product
@@ -28,8 +28,8 @@ const Navbar = () => {
           <Link to='#' className='hover:text-darkGrayishBlue'>
             Careers
           </Link>
-          <Link to='#' className='hover:text-darkGrayishBlue'>
-            Community
+          <Link to='/register' className='hover:text-darkGrayishBlue'>
+            Register
           </Link>
         </div>
         {/* Button */}
