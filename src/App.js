@@ -1,27 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features.jsx";
-import Testimonial from "./components/Testimonial";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
-import Register from "./components/Auth/Register";
-
+import Home from "./pages/Home";
+import Register from "./pages/Register";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
-  const [count, setCount] = useState(0);
   return (
     <>
       <BrowserRouter>
+        <ToastContainer position="top-center" />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
         </Routes>
-        <Navbar />
-        <Hero />
-        <Features />
-        <Testimonial />
-        <CallToAction />
-        <Footer />
       </BrowserRouter>
     </>
   );
